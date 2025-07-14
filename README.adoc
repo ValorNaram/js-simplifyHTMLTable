@@ -1,0 +1,21 @@
+= SimplifyHTMLTable
+
+A small javascript library to turn complicated HTML tables into easier ones. It's only dependency is https://github.com/ValorNaram/js-simplifyTable[js-simplifyTable], a general library to make tables easier to read & process.
+
+.Complicated table showing the result of a fairy safari
+image::demos/complicated-table.png[]
+
+.Simple tables showing the result of a fairy safari
+image::demos/simple-tables.png[]
+
+== Usage
+
+. `npm i`
+. `npm run start`
+
+There are the following examples available:
+
+* http://localhost:8080/
+* http://localhost:8080/fairy-safari-table
+
+See link:./assets/demo.js[demo.js] for example code how to use this library.

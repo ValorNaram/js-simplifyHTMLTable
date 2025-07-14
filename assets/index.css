@@ -1,0 +1,53 @@
+/* Basic HTML style */
+html, body {
+	width: 100%;
+	height: 100%;
+	box-sizing: border-box;
+}
+
+/* Basic table style to better differentiate rows from each other*/
+table {
+	border: 1px double grey;
+	width: 100%;
+	margin: 1.5em 0;
+}
+
+td, th {
+	border: 1px double grey;
+	padding: 0.5em;
+}
+
+table td {
+	padding: 0.5em;
+}
+
+/* Zebra is needed for readability (accessibility) */
+tr:nth-child(even) {
+	background-color: hsla(140, 100%, 78%, 1);
+}
+
+/* add more beauty for simplified tables */
+table[data-simplifyHTMLTable-link] {
+	margin: 0px;
+	border: none;
+	border-spacing: 0;
+}
+
+table[data-simplifyHTMLTable-link] td, table[data-simplifyHTMLTable-link] th {
+	width: 50%;
+	padding: 1em;
+	box-sizing: border-box;
+	border: none;
+	border-bottom: 1px solid grey;
+}
+
+table[data-simplifyHTMLTable-link] th {
+	border-right: 1px solid grey;
+}
+
+table[data-simplifyHTMLTable-link] caption {
+	font-size: 1.2em;
+	font-weight: bold;
+	padding: 0.5em 0%;
+	border-top: 0.25em solid black;
+}
