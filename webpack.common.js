@@ -59,6 +59,13 @@ module.exports = {
 			inject: "head",
 			filename: "fairy-safari-table"
 		}),
+		new HtmlWebpackPlugin({
+			title: "Fairy City Ranking Table Demo",
+			template: "./demos/fairy-city-ranking.html",
+			scriptLoading: "blocking",
+			inject: "head",
+			filename: "fairy-city-ranking"
+		}),
 	// new CopyPlugin({
 	// 	patterns: ["src/index.css"]
 	// })

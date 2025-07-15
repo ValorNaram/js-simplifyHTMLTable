@@ -17,5 +17,6 @@ There are the following examples available:
 
 * http://localhost:8080/
 * http://localhost:8080/fairy-safari-table
+* http://localhost:8080/fairy-city-ranking
 
 See link:./assets/demo.js[demo.js] for example code how to use this library.

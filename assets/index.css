@@ -49,5 +49,8 @@ table[data-simplifyHTMLTable-link] caption {
 	font-size: 1.2em;
 	font-weight: bold;
 	padding: 0.5em 0%;
+}
+
+table[data-simplifyHTMLTable-link] {
 	border-top: 0.25em solid black;
 }
