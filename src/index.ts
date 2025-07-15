@@ -97,40 +97,6 @@ export class Util {
 		return tSectionModel;
 	}
 
-	// public static exportTableModelIntoSimpleTabels(table: Table): HTMLTableElement[] {
-	// 	let htmlTables: HTMLTableElement[] = [];
-	// 	for (let row of table.tbody) {
-	// 		let htmlTable = document.createElement("table");
-	// 		// let htmlTableBody = document.createElement("tbody");
-
-	// 		if (row.row_headers.length > 0) {
-	// 			let htmlTableCaption = document.createElement("caption");
-	// 			htmlTableCaption.innerText = row.row_headers.join(this.tableCellDataRowHeaderSeparator);
-	// 			htmlTable.appendChild(htmlTableCaption);
-	// 		}
-
-	// 		for (let cell of row.cells) {
-	// 			// if (cell.type === "normal" && (cell.colspan > 1 || cell.rowspan > 1)) {
-	// 			// 	continue
-	// 			// }
-	// 			let simpleTableRow = document.createElement("tr");
-
-	// 			let simpleTableCellHeader = document.createElement("th");
-	// 			simpleTableCellHeader.scope = "row";
-	// 			simpleTableCellHeader.append(cell.column_headers.join(this.tableCellDataColumnHeaderSeparator));
-
-	// 			let simpleTabelCellBody = document.createElement("td");
-	// 			simpleTabelCellBody.append(cell.text);
-
-	// 			simpleTableRow.append(simpleTableCellHeader, simpleTabelCellBody)
-	// 			htmlTable.appendChild(simpleTableRow);
-	// 			htmlTables.push(htmlTable);
-	// 		}
-	// 	}
-
-	// 	return htmlTables;
-	// }
-
 	public static exportTableModel(table: Model.Table): HTMLTableElement {
 		let htmlTable = document.createElement("table");
 
