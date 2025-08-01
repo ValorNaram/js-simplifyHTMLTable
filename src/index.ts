@@ -28,7 +28,8 @@ export class Util {
 			shadowAttributes: {
 				duplicatedColumnHeading: false,
 				duplicatedRowHeading: false
-			}
+			},
+			tags: (htmlCell.classList.length > 0 ? htmlCell.className.split(" ") : [])
 		}
 	}
 
@@ -47,7 +48,7 @@ export class Util {
 			cell.colSpan > 1 ? htmlCell.colSpan = cell.colSpan : false;
 		}
 
-		if (cell.tags !== undefined) {
+		if (cell.tags !== undefined && cell.tags.length > 0) {
 			htmlCell.className = cell.tags.join(" ");
 		}
 
@@ -100,7 +101,7 @@ export class Util {
 	public static exportTableModel(table: Model.Table): HTMLTableElement {
 		let htmlTable = document.createElement("table");
 
-		if (table.tags.length > 0) {
+		if (table.tags !== undefined && table.tags.length > 0) {
 			htmlTable.className = table.tags.join(" ");
 		}
 
@@ -133,7 +134,7 @@ export class Util {
 		
 		let caption: string | null = null;
 		if (captionElems.length > 0) {
-			caption = (captionElems[0].textContent !== null ? captionElems[0].textContent : "");
+			caption = (captionElems[0].textContent !== null ? captionElems[0].textContent : null);
 		}
 		
 		let theadModel: Model.Row[] = [];
@@ -154,7 +155,7 @@ export class Util {
 		
 		return {
 			caption: caption,
-			tags: table.className.split(" "),
+			tags: (table.className !== "" ? table.className.split(" ") : []),
 			thead: theadModel,
 			tbody: tbodyModel,
 			tfoot: tfootModel

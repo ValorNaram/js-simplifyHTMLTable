@@ -1,0 +1,531 @@
+// Jest Snapshot v1, https://jestjs.io/docs/snapshot-testing
+
+exports[`turn complicated HTML table into easier to read HTML tables: complicatedTable_simplifiedHTMLVersions 1`] = `
+[
+  <table
+    data-simplifyhtmltable-link="simplifyHTMLTable_Ref-0"
+  >
+    <caption>
+      rh_a - rh_aa
+    </caption>
+    <tbody>
+      <tr>
+        <th>
+          ch_a - ch_aa
+        </th>
+        <td
+          data-column-header="ch_a - ch_aa"
+          data-row-header="rh_a - rh_aa"
+        >
+          content_aa_1
+        </td>
+      </tr>
+      <tr>
+        <th>
+          ch_a - ch_ab
+        </th>
+        <td
+          data-column-header="ch_a - ch_ab"
+          data-row-header="rh_a - rh_aa"
+        >
+          content_aa_2
+        </td>
+      </tr>
+      <tr>
+        <th>
+          ch_b - ch_ba
+        </th>
+        <td
+          data-column-header="ch_b - ch_ba"
+          data-row-header="rh_a - rh_aa"
+        >
+          content_aa_3
+        </td>
+      </tr>
+      <tr>
+        <th>
+          ch_b - ch_bb
+        </th>
+        <td
+          data-column-header="ch_b - ch_bb"
+          data-row-header="rh_a - rh_aa"
+        >
+          content_aa_4
+        </td>
+      </tr>
+      <tr>
+        <th>
+          ch_c - ch_ca
+        </th>
+        <td
+          data-column-header="ch_c - ch_ca"
+          data-row-header="rh_a - rh_aa"
+        >
+          content_aa_5
+        </td>
+      </tr>
+      <tr>
+        <th>
+          ch_c - ch_cb
+        </th>
+        <td
+          data-column-header="ch_c - ch_cb"
+          data-row-header="rh_a - rh_aa"
+        >
+          content_aa_6
+        </td>
+      </tr>
+    </tbody>
+  </table>,
+  <table
+    data-simplifyhtmltable-link="simplifyHTMLTable_Ref-0"
+  >
+    <caption>
+      rh_a - rh_ab
+    </caption>
+    <tbody>
+      <tr>
+        <th>
+          ch_a - ch_aa
+        </th>
+        <td
+          data-column-header="ch_a - ch_aa"
+          data-row-header="rh_a - rh_ab"
+        >
+          content_ab_1
+        </td>
+      </tr>
+      <tr>
+        <th>
+          ch_a - ch_ab
+        </th>
+        <td
+          data-column-header="ch_a - ch_ab"
+          data-row-header="rh_a - rh_ab"
+        >
+          content_ab_2
+        </td>
+      </tr>
+      <tr>
+        <th>
+          ch_b - ch_ba
+        </th>
+        <td
+          data-column-header="ch_b - ch_ba"
+          data-row-header="rh_a - rh_ab"
+        >
+          content_ab_3
+        </td>
+      </tr>
+      <tr>
+        <th>
+          ch_b - ch_bb
+        </th>
+        <td
+          data-column-header="ch_b - ch_bb"
+          data-row-header="rh_a - rh_ab"
+        >
+          content_ab_4
+        </td>
+      </tr>
+      <tr>
+        <th>
+          ch_c - ch_ca
+        </th>
+        <td
+          data-column-header="ch_c - ch_ca"
+          data-row-header="rh_a - rh_ab"
+        >
+          content_ab_5
+        </td>
+      </tr>
+      <tr>
+        <th>
+          ch_c - ch_cb
+        </th>
+        <td
+          data-column-header="ch_c - ch_cb"
+          data-row-header="rh_a - rh_ab"
+        >
+          content_ab_6
+        </td>
+      </tr>
+    </tbody>
+  </table>,
+  <table
+    data-simplifyhtmltable-link="simplifyHTMLTable_Ref-0"
+  >
+    <caption>
+      rh_a - rh_ac
+    </caption>
+    <tbody>
+      <tr>
+        <th>
+          ch_a - ch_aa
+        </th>
+        <td
+          data-column-header="ch_a - ch_aa"
+          data-row-header="rh_a - rh_ac"
+        >
+          content_ac_1
+        </td>
+      </tr>
+      <tr>
+        <th>
+          ch_a - ch_ab
+        </th>
+        <td
+          data-column-header="ch_a - ch_ab"
+          data-row-header="rh_a - rh_ac"
+        >
+          content_ac_2
+        </td>
+      </tr>
+      <tr>
+        <th>
+          ch_b - ch_ba
+        </th>
+        <td
+          data-column-header="ch_b - ch_ba"
+          data-row-header="rh_a - rh_ac"
+        >
+          content_ac_3
+        </td>
+      </tr>
+      <tr>
+        <th>
+          ch_b - ch_bb
+        </th>
+        <td
+          data-column-header="ch_b - ch_bb"
+          data-row-header="rh_a - rh_ac"
+        >
+          content_ac_4
+        </td>
+      </tr>
+      <tr>
+        <th>
+          ch_c - ch_ca
+        </th>
+        <td
+          data-column-header="ch_c - ch_ca"
+          data-row-header="rh_a - rh_ac"
+        >
+          content_ac_5
+        </td>
+      </tr>
+      <tr>
+        <th>
+          ch_c - ch_cb
+        </th>
+        <td
+          data-column-header="ch_c - ch_cb"
+          data-row-header="rh_a - rh_ac"
+        >
+          content_ac_6
+        </td>
+      </tr>
+    </tbody>
+  </table>,
+  <table
+    data-simplifyhtmltable-link="simplifyHTMLTable_Ref-0"
+  >
+    <caption>
+      rh_b - rh_ba - rh_baa
+    </caption>
+    <tbody>
+      <tr>
+        <th>
+          ch_a - ch_aa
+        </th>
+        <td
+          data-column-header="ch_a - ch_aa"
+          data-row-header="rh_b - rh_ba - rh_baa"
+        >
+          content_baa_1
+        </td>
+      </tr>
+      <tr>
+        <th>
+          ch_a - ch_ab
+        </th>
+        <td
+          data-column-header="ch_a - ch_ab"
+          data-row-header="rh_b - rh_ba - rh_baa"
+        >
+          content_baa_2
+        </td>
+      </tr>
+      <tr>
+        <th>
+          ch_b - ch_ba
+        </th>
+        <td
+          data-column-header="ch_b - ch_ba"
+          data-row-header="rh_b - rh_ba - rh_baa"
+        >
+          content_baa_3
+        </td>
+      </tr>
+      <tr>
+        <th>
+          ch_b - ch_bb
+        </th>
+        <td
+          data-column-header="ch_b - ch_bb"
+          data-row-header="rh_b - rh_ba - rh_baa"
+        >
+          content_baa_3
+        </td>
+      </tr>
+      <tr>
+        <th>
+          ch_c - ch_ca
+        </th>
+        <td
+          data-column-header="ch_c - ch_ca"
+          data-row-header="rh_b - rh_ba - rh_baa"
+        >
+          content_baa_5
+        </td>
+      </tr>
+      <tr>
+        <th>
+          ch_c - ch_cb
+        </th>
+        <td
+          data-column-header="ch_c - ch_cb"
+          data-row-header="rh_b - rh_ba - rh_baa"
+        >
+          content_baa_6
+        </td>
+      </tr>
+    </tbody>
+  </table>,
+  <table
+    data-simplifyhtmltable-link="simplifyHTMLTable_Ref-0"
+  >
+    <caption>
+      rh_b - rh_ba - rh_bab
+    </caption>
+    <tbody>
+      <tr>
+        <th>
+          ch_a - ch_aa
+        </th>
+        <td
+          data-column-header="ch_a - ch_aa"
+          data-row-header="rh_b - rh_ba - rh_bab"
+        >
+          content_bab_1
+        </td>
+      </tr>
+      <tr>
+        <th>
+          ch_a - ch_ab
+        </th>
+        <td
+          data-column-header="ch_a - ch_ab"
+          data-row-header="rh_b - rh_ba - rh_bab"
+        >
+          content_bab_2
+        </td>
+      </tr>
+      <tr>
+        <th>
+          ch_b - ch_ba
+        </th>
+        <td
+          data-column-header="ch_b - ch_ba"
+          data-row-header="rh_b - rh_ba - rh_bab"
+        >
+          content_baa_3
+        </td>
+      </tr>
+      <tr>
+        <th>
+          ch_b - ch_bb
+        </th>
+        <td
+          data-column-header="ch_b - ch_bb"
+          data-row-header="rh_b - rh_ba - rh_bab"
+        >
+          content_baa_3
+        </td>
+      </tr>
+      <tr>
+        <th>
+          ch_c - ch_ca
+        </th>
+        <td
+          data-column-header="ch_c - ch_ca"
+          data-row-header="rh_b - rh_ba - rh_bab"
+        >
+          content_bab_5
+        </td>
+      </tr>
+      <tr>
+        <th>
+          ch_c - ch_cb
+        </th>
+        <td
+          data-column-header="ch_c - ch_cb"
+          data-row-header="rh_b - rh_ba - rh_bab"
+        >
+          content_bab_6
+        </td>
+      </tr>
+    </tbody>
+  </table>,
+  <table
+    data-simplifyhtmltable-link="simplifyHTMLTable_Ref-0"
+  >
+    <caption>
+      rh_b - rh_bb - rh_bba
+    </caption>
+    <tbody>
+      <tr>
+        <th>
+          ch_a - ch_aa
+        </th>
+        <td
+          data-column-header="ch_a - ch_aa"
+          data-row-header="rh_b - rh_bb - rh_bba"
+        >
+          content_bba_1
+        </td>
+      </tr>
+      <tr>
+        <th>
+          ch_a - ch_ab
+        </th>
+        <td
+          data-column-header="ch_a - ch_ab"
+          data-row-header="rh_b - rh_bb - rh_bba"
+        >
+          content_bba_2
+        </td>
+      </tr>
+      <tr>
+        <th>
+          ch_b - ch_ba
+        </th>
+        <td
+          data-column-header="ch_b - ch_ba"
+          data-row-header="rh_b - rh_bb - rh_bba"
+        >
+          content_bba_3
+        </td>
+      </tr>
+      <tr>
+        <th>
+          ch_b - ch_bb
+        </th>
+        <td
+          data-column-header="ch_b - ch_bb"
+          data-row-header="rh_b - rh_bb - rh_bba"
+        >
+          content_bba_4
+        </td>
+      </tr>
+      <tr>
+        <th>
+          ch_c - ch_ca
+        </th>
+        <td
+          data-column-header="ch_c - ch_ca"
+          data-row-header="rh_b - rh_bb - rh_bba"
+        >
+          content_bba_5
+        </td>
+      </tr>
+      <tr>
+        <th>
+          ch_c - ch_cb
+        </th>
+        <td
+          data-column-header="ch_c - ch_cb"
+          data-row-header="rh_b - rh_bb - rh_bba"
+        >
+          content_bba_6
+        </td>
+      </tr>
+    </tbody>
+  </table>,
+  <table
+    data-simplifyhtmltable-link="simplifyHTMLTable_Ref-0"
+  >
+    <caption>
+      rh_b - rh_bb - rh_bbb
+    </caption>
+    <tbody>
+      <tr>
+        <th>
+          ch_a - ch_aa
+        </th>
+        <td
+          data-column-header="ch_a - ch_aa"
+          data-row-header="rh_b - rh_bb - rh_bbb"
+        >
+          content_bbb_1
+        </td>
+      </tr>
+      <tr>
+        <th>
+          ch_a - ch_ab
+        </th>
+        <td
+          data-column-header="ch_a - ch_ab"
+          data-row-header="rh_b - rh_bb - rh_bbb"
+        >
+          content_bbb_2
+        </td>
+      </tr>
+      <tr>
+        <th>
+          ch_b - ch_ba
+        </th>
+        <td
+          data-column-header="ch_b - ch_ba"
+          data-row-header="rh_b - rh_bb - rh_bbb"
+        >
+          content_bbb_3
+        </td>
+      </tr>
+      <tr>
+        <th>
+          ch_b - ch_bb
+        </th>
+        <td
+          data-column-header="ch_b - ch_bb"
+          data-row-header="rh_b - rh_bb - rh_bbb"
+        >
+          content_bbb_4
+        </td>
+      </tr>
+      <tr>
+        <th>
+          ch_c - ch_ca
+        </th>
+        <td
+          data-column-header="ch_c - ch_ca"
+          data-row-header="rh_b - rh_bb - rh_bbb"
+        >
+          content_bbb_5
+        </td>
+      </tr>
+      <tr>
+        <th>
+          ch_c - ch_cb
+        </th>
+        <td
+          data-column-header="ch_c - ch_cb"
+          data-row-header="rh_b - rh_bb - rh_bbb"
+        >
+          content_bbb_6
+        </td>
+      </tr>
+    </tbody>
+  </table>,
+]
+`;

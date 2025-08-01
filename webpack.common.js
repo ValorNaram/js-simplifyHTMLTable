@@ -1,9 +1,15 @@
-const path = require("path");
+import * as path from "path";
+import { fileURLToPath } from "url";
 
-const HtmlWebpackPlugin = require("html-webpack-plugin");
-const CopyPlugin = require("copy-webpack-plugin");
+import HtmlWebpackPlugin from "html-webpack-plugin";
 
-module.exports = {
+HtmlWebpackPlugin.length;
+
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename);
+// const __dirname = path.dirname("path/to/directory/file.txt");
+
+export default {
 	module: {
 		rules: [
 			{
@@ -65,6 +71,13 @@ module.exports = {
 			scriptLoading: "blocking",
 			inject: "head",
 			filename: "fairy-city-ranking"
+		}),
+		new HtmlWebpackPlugin({
+			title: "Fairy City Ranking Table Demo",
+			template: "./demos/fairy-city-ranking-semantic.html",
+			scriptLoading: "blocking",
+			inject: "head",
+			filename: "fairy-city-ranking-semantic"
 		}),
 	// new CopyPlugin({
 	// 	patterns: ["src/index.css"]
