@@ -79,6 +79,13 @@ export default {
 			inject: "head",
 			filename: "fairy-city-ranking-semantic"
 		}),
+		new HtmlWebpackPlugin({
+			title: "Freestyle Demo",
+			template: "./demos/freestyle.html",
+			scriptLoading: "blocking",
+			inject: "head",
+			filename: "freestyle"
+		}),
 	// new CopyPlugin({
 	// 	patterns: ["src/index.css"]
 	// })
