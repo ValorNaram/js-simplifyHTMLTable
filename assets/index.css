@@ -7,24 +7,44 @@ html, body {
 
 /* Basic table style to better differentiate rows from each other*/
 table {
-	border: 1px double grey;
+	/* border: 1px double grey; */
 	width: 100%;
 	margin: 1.5em 0;
+	border-collapse: collapse;
 }
 
 td, th {
-	border: 1px double grey;
+	/* border-bottom: 1px double grey; */
 	padding: 0.5em;
+	text-align: start;
 }
 
-table td {
-	padding: 0.5em;
+th[colspan], td[colspan] {
+	text-align: center;
+}
+
+thead, tbody:not(:last-child) {
+	border-bottom:0.2em solid green;
+}
+
+tfoot {
+	border-top:0.2em solid green;
+}
+
+/* Selects all tr elements where their first child is a th, has HTML attributes scope="row" and rowspan defined */
+tr:has(> th[scope="row"][rowspan]) {
+ 	border-top:0.2em solid green;
+}
+
+/* Selects all tr elements where their first child is a th, has HTML attributes scope="row" and colspan defined */
+tr:has(> th[scope="row"][colspan]) {
+ 	border-top:0.2em solid green;
 }
 
 /* Zebra is needed for readability (accessibility) */
-tr:nth-child(even) {
+/* tr:nth-child(even) {
 	background-color: hsla(140, 100%, 78%, 1);
-}
+} */
 
 /* add more beauty for simplified tables */
 table[data-simplifyHTMLTable-link] {
@@ -52,5 +72,5 @@ table[data-simplifyHTMLTable-link] caption {
 }
 
 table[data-simplifyHTMLTable-link] {
-	border-top: 0.25em solid black;
+	border-top: 0.25em solid darkgreen;
 }
