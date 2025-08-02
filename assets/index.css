@@ -7,14 +7,12 @@ html, body {
 
 /* Basic table style to better differentiate rows from each other*/
 table {
-	/* border: 1px double grey; */
 	width: 100%;
 	margin: 1.5em 0;
 	border-collapse: collapse;
 }
 
 td, th {
-	/* border-bottom: 1px double grey; */
 	padding: 0.5em;
 	text-align: start;
 }
@@ -40,11 +38,6 @@ tr:has(> th[scope="row"][rowspan]) {
 tr:has(> th[scope="row"][colspan]) {
  	border-top:0.2em solid green;
 }
-
-/* Zebra is needed for readability (accessibility) */
-/* tr:nth-child(even) {
-	background-color: hsla(140, 100%, 78%, 1);
-} */
 
 /* add more beauty for simplified tables */
 table[data-simplifyHTMLTable-link] {
